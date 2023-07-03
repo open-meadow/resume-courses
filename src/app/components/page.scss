@@ -1,7 +1,30 @@
+body {
+    font-family: motiva-sans,sans-serif;
+}
 .bigButtons {
     border: 3px solid red;
+    display: flex;
 
     &--single {
         border: 3px solid green;
+        text-align: center;
+        margin: 1em;
+        padding: 1em;
+        border: 1px solid rgb(109, 109, 109);
+        border-radius: 3rem;
+        
+        h1 {
+            font-weight: bold;
+            font-size: 2em;
+            color: #064788;
+        }
+
+        button {
+            margin: 1em;
+            background-color: #064788;
+            color: floralwhite;
+            padding: 0.3rem 0.75rem;
+            border-radius: 1em;
+        }
     }
 }
