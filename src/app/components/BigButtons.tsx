@@ -8,10 +8,10 @@ export default function BigButtons() {
         <img
           width="200"
           height="200"
+          className="bigButtons--single--icon"
           src="https://img.icons8.com/nolan/96/resume.png"
           alt="resume"
         />
-        <img src="./resume.svg" />
         <h1 className="title-3">Resume and Cover Letter</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
