@@ -6,7 +6,6 @@ body {
     background-image: url("../../../public/pexels-essow-k-936722.jpg");
     background-color: #064788;
     background-attachment: scroll;
-    border: 3px solid green;
     padding: 20rem;
     color: floralwhite;
     text-align: left;
@@ -18,11 +17,9 @@ body {
 }
 
 .bigButtons {
-    border: 3px solid red;
     display: flex;
 
     &--single {
-        border: 3px solid green;
         text-align: center;
         margin: 1em;
         padding: 1em;
@@ -41,6 +38,19 @@ body {
             color: floralwhite;
             padding: 0.3rem 0.75rem;
             border-radius: 1em;
+        }
+    }
+}
+
+footer {
+    background-color: #064788;
+    color: floralwhite;
+    padding: 3rem;
+    font-weight: bold;
+
+    div {
+        p {
+            font-weight: 500;
         }
     }
 }
