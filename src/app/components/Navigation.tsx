@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Nav() {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-white p-8">
-      <div className="flex items-center flex-shrink-0 text-black mr-6">
+    <nav className="flex items-center justify-between flex-wrap bg-[#064788] p-8">
+      <div className="flex items-center flex-shrink-0 text-white mr-6">
         <span className="font-semibold text-xl tracking-light">
           Babayev Consulting
         </span>
@@ -13,20 +13,20 @@ export default function Nav() {
         <div className="text-md lg:flex-grow">
           <a
             href="#Resume"
-            className="block mt-4 lg:inline-block lg:mt-0 font-bold text-[#064788] hover:text-cyan-600 mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 font-bold text-white hover:text-cyan-600 mr-4"
           >
             Resume
           </a>
           <a
             href="#Online Courses"
-            className="block mt-4 lg:inline-block lg:mt-0 font-bold text-[#064788] hover:text-cyan-600 mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 font-bold text-white hover:text-cyan-600 mr-4"
           >
             Online Courses
           </a>
           <a
             href="#Essay"
             hrefLang="#Essay"
-            className="block mt-4 lg:inline-block lg:mt-0 font-bold text-[#064788] hover:text-cyan-600 mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 font-bold text-white hover:text-cyan-600 mr-4"
           >
             Essay
           </a>
