@@ -6,12 +6,21 @@ body {
     background-image: url("../../../public/pexels-essow-k-936722.jpg");
     background-color: #064788;
     background-attachment: scroll;
-    padding: 20rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    padding: 10rem;
     color: floralwhite;
     text-align: left;
 
     h1 {
         font-weight: bolder;
+        font-size: 48px;
+        text-shadow: 1px 1px 5px black;
+    }
+
+    p {
+        text-shadow: 1px 1px 5px black;
     }
 
 }
