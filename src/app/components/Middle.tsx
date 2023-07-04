@@ -4,8 +4,8 @@ import Image from "next/image"
 
 export default function Middle() {
   return (
-    <div className="relative">
-      <Image src={"/../public/pexels-essow-k-936722.jpg"} width={1400} height={400} alt="Buildings" />
+    <div className="relative middle">
+      {/* <Image src={"/../public/pexels-essow-k-936722.jpg"} width={1400} height={400} className="" alt="Buildings" /> */}
       <h1 className="absolute text-5xl p-10 top-1">Babayev Consulting</h1>
       <p className="absolute p-10 bottom-10">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

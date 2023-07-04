@@ -1,6 +1,22 @@
 body {
     font-family: motiva-sans,sans-serif;
 }
+
+.middle {
+    background-image: url("../../../public/pexels-essow-k-936722.jpg");
+    background-color: #064788;
+    background-attachment: scroll;
+    border: 3px solid green;
+    padding: 20rem;
+    color: floralwhite;
+    text-align: left;
+
+    h1 {
+        font-weight: bolder;
+    }
+
+}
+
 .bigButtons {
     border: 3px solid red;
     display: flex;

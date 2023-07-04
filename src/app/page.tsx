@@ -3,6 +3,7 @@ import Middle from "./components/Middle";
 import BigButtons from "./components/BigButtons";
 
 import "./components/page.scss"
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Nav />
       <Middle/>
       <BigButtons/>
+      <Footer/>
     </>
   );
 }
