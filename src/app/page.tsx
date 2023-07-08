@@ -4,6 +4,7 @@ import BigButtons from "./components/BigButtons";
 
 import "./components/page.scss"
 import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Nav />
       <Middle/>
       <BigButtons/>
+      <Testimonials/>
       <Footer/>
     </>
   );
