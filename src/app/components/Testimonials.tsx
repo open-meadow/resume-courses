@@ -1,10 +1,18 @@
 import React from "react";
 
 export default function Testimonials() {
-    return(
-        <div className="testimonials max-w-md mx-auto bg-grey overflow-hidden md:max-w-2xl">
-            <img></img>
-            <h2>"Taking this course changed my life!" - Person</h2>
+  return (
+    <div className="testimonials flex flex-col items-center p-3">
+      <h1 className="text-4xl font-bold">Testimonials</h1>
+      <div className="overflow-hidden flex p-10 w-screen justify-evenly">
+        <img src="https://placehold.co/300x300" className="rounded-full" />
+        <div className="flex flex-col justify-center md-2">
+          <h2 className="text-3xl font-semibold">
+            "Taking this course changed my life!"
+          </h2>
+          <h2 className="text-2xl"> - Person</h2>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
