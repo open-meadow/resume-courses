@@ -3,7 +3,9 @@ import React from "react";
 export default function ContactUs() {
   return (
     <div className="p-2 py-5 flex flex-col items-center">
-      <h1 className="font-bold text-4xl text-center text-[#064788]">Contact Us</h1>
+      <h1 className="font-bold text-4xl text-center text-[#064788]">
+        Contact Us
+      </h1>
       <div className="grid grid-cols-1 gap-6 w-3/4">
         <label className="block">
           <span>Name</span>
@@ -21,6 +23,36 @@ export default function ContactUs() {
             placeholder="Enter your e-mail"
           />
         </label>
+        <div>
+          <h1>What services are you looking for?</h1>
+          <label className="block">
+            <input
+              className="form-checkbox"
+              type="checkbox"
+              checked-name="checkbox-direct"
+              value="1"
+            />
+            <span className="ml-2">Resume/Cover Letter</span>
+          </label>
+          <label className="block">
+            <input
+              className="form-checkbox"
+              type="checkbox"
+              checked-name="checkbox-direct"
+              value="2"
+            />
+            <span className="ml-2">College Essay</span>
+          </label>
+          <label className="block">
+            <input
+              className="form-checkbox"
+              type="checkbox"
+              checked-name="checkbox-direct"
+              value="3"
+            />
+            <span className="ml-2">Online Courses</span>
+          </label>
+        </div>
         <label className="block">
           <span>Message</span>
           <textarea
@@ -29,6 +61,7 @@ export default function ContactUs() {
           />
         </label>
       </div>
+      <button className="mt-5 bg-[#064788] text-white p-3 font-bold rounded-2xl">Speak with an expert</button>
     </div>
   );
 }
