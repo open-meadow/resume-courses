@@ -18,19 +18,19 @@ export default function Nav() {
           >
             Resume
           </Link>
-          <a
-            href="#Online Courses"
+          <Link
+            href="/online-course"
             className="block mt-4 lg:inline-block lg:mt-0 font-bold text-white hover:text-cyan-600 mr-4"
           >
             Online Courses
-          </a>
-          <a
-            href="#Essay"
+          </Link>
+          <Link
+            href="/essay"
             hrefLang="#Essay"
             className="block mt-4 lg:inline-block lg:mt-0 font-bold text-white hover:text-cyan-600 mr-4"
           >
             Essay
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
